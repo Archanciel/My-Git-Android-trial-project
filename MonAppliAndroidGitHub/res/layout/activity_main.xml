@@ -11,4 +11,14 @@
         android:text="@string/hello_world"
         tools:context=".MainActivity" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:onClick="handleClick"
+        android:text="Push me master" />
+
 </RelativeLayout>
