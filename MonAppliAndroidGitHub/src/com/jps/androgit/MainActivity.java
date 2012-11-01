@@ -24,6 +24,6 @@ public class MainActivity extends Activity {
     	EditText e = (EditText)this.findViewById(R.id.EditText1);
     	
     	String eTextStr = e.getText().toString();
-		e.setText(eTextStr.toUpperCase() + "second");
+		e.setText(eTextStr.toUpperCase() + "branche essai 1 second");
     }
 }
