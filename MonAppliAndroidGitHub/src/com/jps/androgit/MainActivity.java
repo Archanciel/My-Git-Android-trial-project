@@ -23,6 +23,6 @@ public class MainActivity extends Activity {
     public void handleClick(View v) {
     	EditText e = (EditText)this.findViewById(R.id.EditText1);
     	
-    	e.setText(e.getText().toString());
+    	e.setText(e.getText().toString().toUpperCase() + "second");
     }
 }
